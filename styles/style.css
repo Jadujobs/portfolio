@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #0f1e4b;
+  color: white;
+  padding: 10px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  font-size: 20px;
+}
+
+li {
+  margin: 0px 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

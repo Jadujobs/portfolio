@@ -1,0 +1,12 @@
+header {
+  background-color: #f1f1f1;
+  height: 91.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+header h1 {
+  text-transform: uppercase;
+}
