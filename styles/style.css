@@ -26,11 +26,11 @@ li {
   margin: 0px 10px;
 }
 
-a {
+nav a {
   color: white;
   text-decoration: none;
 }
 
-a:hover {
+nav a:hover {
   text-decoration: underline;
 }

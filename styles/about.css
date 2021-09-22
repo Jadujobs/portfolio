@@ -1,0 +1,23 @@
+header {
+  background-color: #f1f1f1;
+  height: 91.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-size: 20px;
+  padding: 0px 90px;
+  color: #0f1e4b;
+}
+
+a {
+  color: #0f1e4b;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 1px solid #0f1e4b;
+}
+
+a:hover {
+  border-bottom: 3px solid #0f1e4b;
+}

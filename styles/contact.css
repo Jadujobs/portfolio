@@ -56,3 +56,14 @@ textarea {
   border: 2px solid #0f1e4b;
   padding: 2px 5px;
 }
+
+.social_links {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 20px;
+}
+
+img {
+  height: 50px;
+}
