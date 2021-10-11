@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        background-color: coral;
+        border-radius: 3px;
+      }
+
+      .flex {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      @media only screen and (min-width: 600px) {
+        body {
+          background-color: lightblue;
+        }
+      }
+
+      @media only screen and (max-width: 905px) {
+        h2 {
+          font-size: 20px;
+        }
+      }
+
+      @media only screen and (max-width: 770px) {
+        h2 {
+          font-size: 17px;
+        }
+      }
+
+      @media only screen and (min-width: 1050px) {
+        h2 {
+          font-size: 30px;
+        }
+      }
+
+      @media only screen and (min-width: 1150px) {
+        h2 {
+          font-size: 33px;
+        }
+      }
+
+      @media only screen and (max-width: 684px) {
+        .flex {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <div class="flex">
+      <h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci.
+      </h2>
+      <div>
+        <button>Sign up</button>
+        <button>Log in</button>
+      </div>
+    </div>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt qui nam
+      consectetur autem aliquam facere. Magnam nulla perspiciatis esse? A
+      voluptate corporis eligendi, dolor odit distinctio perferendis quas esse
+      saepe?
+    </p>
+  </body>
+</html>

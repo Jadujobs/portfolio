@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        background-color: coral;
+        border-radius: 3px;
+      }
+
+      .right {
+        position: absolute;
+        left: 2%;
+        animation: moveRight 1s linear forwards;
+      }
+
+      .rightleft {
+        position: absolute;
+        top: 40%;
+        animation: moveBack 2s linear forwards;
+      }
+
+      .scaleout {
+        position: absolute;
+        top: 80%;
+        left: 10%;
+        transform: scale(2);
+        animation: scaleOut 2s linear forwards infinite;
+      }
+
+      .circle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        height: 150px;
+        width: 150px;
+        /* border-radius: 50%;
+        border: 1px solid black; */
+        animation: circle 1s linear infinite;
+      }
+
+      .dot {
+        background-color: cadetblue;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+      }
+      @keyframes moveRight {
+        0% {
+          left: 2%;
+        }
+
+        100% {
+          left: 30%;
+        }
+      }
+
+      @keyframes moveBack {
+        0% {
+          left: 2%;
+        }
+
+        50% {
+          left: 30%;
+        }
+
+        100% {
+          left: 2%;
+        }
+      }
+
+      @keyframes scaleOut {
+        0% {
+          transform: scale(1);
+        }
+
+        50% {
+          transform: scale(2);
+        }
+
+        100% {
+          transform: scale(1);
+        }
+      }
+
+      @keyframes circle {
+        0% {
+          transform: rotateZ(0deg);
+        }
+        100% {
+          transform: rotateZ(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Animations</h2>
+    <button class="right">Move Right</button>
+    <button class="rightleft">Move Right and back</button>
+    <button class="scaleout">Scale out</button>
+
+    <div class="circle">
+      <div class="dot"></div>
+    </div>
+  </body>
+</html>
